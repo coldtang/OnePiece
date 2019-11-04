@@ -1,0 +1,17 @@
+D:\project\OnePiece\OnePiece\bin\Debug\netcoreapp2.1\OnePiece.Business.dll
+D:\project\OnePiece\OnePiece\obj\Debug\netcoreapp2.1\OnePiece.csprojAssemblyReference.cache
+D:\project\OnePiece\OnePiece\obj\Debug\netcoreapp2.1\OnePiece.csproj.CoreCompileInputs.cache
+D:\project\OnePiece\OnePiece\obj\Debug\netcoreapp2.1\OnePiece.RazorAssemblyInfo.cache
+D:\project\OnePiece\OnePiece\obj\Debug\netcoreapp2.1\OnePiece.RazorAssemblyInfo.cs
+D:\project\OnePiece\OnePiece\obj\Debug\netcoreapp2.1\OnePiece.AssemblyInfoInputs.cache
+D:\project\OnePiece\OnePiece\obj\Debug\netcoreapp2.1\OnePiece.AssemblyInfo.cs
+D:\project\OnePiece\OnePiece\obj\Debug\netcoreapp2.1\OnePiece.RazorTargetAssemblyInfo.cache
+D:\project\OnePiece\OnePiece\bin\Debug\netcoreapp2.1\OnePiece.deps.json
+D:\project\OnePiece\OnePiece\bin\Debug\netcoreapp2.1\OnePiece.runtimeconfig.json
+D:\project\OnePiece\OnePiece\bin\Debug\netcoreapp2.1\OnePiece.runtimeconfig.dev.json
+D:\project\OnePiece\OnePiece\bin\Debug\netcoreapp2.1\OnePiece.dll
+D:\project\OnePiece\OnePiece\bin\Debug\netcoreapp2.1\OnePiece.pdb
+D:\project\OnePiece\OnePiece\bin\Debug\netcoreapp2.1\OnePiece.Business.pdb
+D:\project\OnePiece\OnePiece\obj\Debug\netcoreapp2.1\OnePiece.csproj.CopyComplete
+D:\project\OnePiece\OnePiece\obj\Debug\netcoreapp2.1\OnePiece.dll
+D:\project\OnePiece\OnePiece\obj\Debug\netcoreapp2.1\OnePiece.pdb
