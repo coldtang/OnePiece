@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\OnePiece.Business\OnePiece.Business.csproj" />
+    <ProjectReference Include="..\OnePiece.Entity\OnePiece.Entity.csproj" />
   </ItemGroup>
 
 </Project>

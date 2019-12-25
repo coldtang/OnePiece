@@ -1008,11 +1008,24 @@
       "OnePiece.Business/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.0",
+        "dependencies": {
+          "OnePiece.Entity": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/OnePiece.Business.dll": {}
         },
         "runtime": {
           "bin/placeholder/OnePiece.Business.dll": {}
+        }
+      },
+      "OnePiece.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/OnePiece.Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OnePiece.Entity.dll": {}
         }
       }
     }
@@ -3674,12 +3687,18 @@
       "type": "project",
       "path": "../OnePiece.Business/OnePiece.Business.csproj",
       "msbuildProject": "../OnePiece.Business/OnePiece.Business.csproj"
+    },
+    "OnePiece.Entity/1.0.0": {
+      "type": "project",
+      "path": "../OnePiece.Entity/OnePiece.Entity.csproj",
+      "msbuildProject": "../OnePiece.Entity/OnePiece.Entity.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
       "Microsoft.AspNetCore.Mvc.Versioning >= 2.3.0",
-      "OnePiece.Business >= 1.0.0"
+      "OnePiece.Business >= 1.0.0",
+      "OnePiece.Entity >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3716,6 +3735,9 @@
           "projectReferences": {
             "D:\\project\\OnePiece\\OnePiece.Business\\OnePiece.Business.csproj": {
               "projectPath": "D:\\project\\OnePiece\\OnePiece.Business\\OnePiece.Business.csproj"
+            },
+            "D:\\project\\OnePiece\\OnePiece.Entity\\OnePiece.Entity.csproj": {
+              "projectPath": "D:\\project\\OnePiece\\OnePiece.Entity\\OnePiece.Entity.csproj"
             }
           }
         }

@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.645
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnePiece", "OnePiece\OnePiece.csproj", "{B034C7AF-425D-4A68-805A-5DA7662A1866}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnePiece.Business", "OnePiece.Business\OnePiece.Business.csproj", "{CADDFAC6-D2B5-4FED-881B-E17C27734942}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnePiece.Business", "OnePiece.Business\OnePiece.Business.csproj", "{CADDFAC6-D2B5-4FED-881B-E17C27734942}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnePiece.Entity", "OnePiece.Entity\OnePiece.Entity.csproj", "{491C937B-09ED-4DCA-BC29-310A42CD4C2C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{CADDFAC6-D2B5-4FED-881B-E17C27734942}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CADDFAC6-D2B5-4FED-881B-E17C27734942}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CADDFAC6-D2B5-4FED-881B-E17C27734942}.Release|Any CPU.Build.0 = Release|Any CPU
+		{491C937B-09ED-4DCA-BC29-310A42CD4C2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{491C937B-09ED-4DCA-BC29-310A42CD4C2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{491C937B-09ED-4DCA-BC29-310A42CD4C2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{491C937B-09ED-4DCA-BC29-310A42CD4C2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

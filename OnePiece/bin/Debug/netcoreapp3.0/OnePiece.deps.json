@@ -26,6 +26,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Versioning": "2.3.0",
           "OnePiece.Business": "1.0.0",
+          "OnePiece.Entity": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions.Reference": "3.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.0.0.0",
@@ -893,11 +894,22 @@
         }
       },
       "OnePiece.Business/1.0.0": {
+        "dependencies": {
+          "OnePiece.Entity": "1.0.0"
+        },
         "runtime": {
           "OnePiece.Business.dll": {}
         },
         "compile": {
           "OnePiece.Business.dll": {}
+        }
+      },
+      "OnePiece.Entity/1.0.0": {
+        "runtime": {
+          "OnePiece.Entity.dll": {}
+        },
+        "compile": {
+          "OnePiece.Entity.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.0.0.0": {
@@ -3098,6 +3110,11 @@
       "hashPath": "system.xml.xdocument.4.0.11.nupkg.sha512"
     },
     "OnePiece.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OnePiece.Entity/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

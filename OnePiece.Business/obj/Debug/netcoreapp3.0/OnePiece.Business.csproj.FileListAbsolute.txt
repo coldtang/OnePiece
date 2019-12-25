@@ -6,3 +6,6 @@ D:\project\OnePiece\OnePiece.Business\obj\Debug\netcoreapp3.0\OnePiece.Business.
 D:\project\OnePiece\OnePiece.Business\obj\Debug\netcoreapp3.0\OnePiece.Business.dll
 D:\project\OnePiece\OnePiece.Business\obj\Debug\netcoreapp3.0\OnePiece.Business.pdb
 D:\project\OnePiece\OnePiece.Business\obj\Debug\netcoreapp3.0\OnePiece.Business.csprojAssemblyReference.cache
+D:\project\OnePiece\OnePiece.Business\bin\Debug\netcoreapp3.0\OnePiece.Entity.dll
+D:\project\OnePiece\OnePiece.Business\bin\Debug\netcoreapp3.0\OnePiece.Entity.pdb
+D:\project\OnePiece\OnePiece.Business\obj\Debug\netcoreapp3.0\OnePiece.Business.csproj.CopyComplete

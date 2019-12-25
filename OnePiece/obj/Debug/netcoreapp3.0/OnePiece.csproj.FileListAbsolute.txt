@@ -24,3 +24,5 @@ D:\project\OnePiece\OnePiece\obj\Debug\netcoreapp3.0\OnePiece.RazorTargetAssembl
 D:\project\OnePiece\OnePiece\obj\Debug\netcoreapp3.0\OnePiece.csproj.CopyComplete
 D:\project\OnePiece\OnePiece\obj\Debug\netcoreapp3.0\OnePiece.dll
 D:\project\OnePiece\OnePiece\obj\Debug\netcoreapp3.0\OnePiece.pdb
+D:\project\OnePiece\OnePiece\bin\Debug\netcoreapp3.0\OnePiece.Entity.dll
+D:\project\OnePiece\OnePiece\bin\Debug\netcoreapp3.0\OnePiece.Entity.pdb

@@ -6,14 +6,6 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.0": {
-      "OnePiece.Business/1.0.0": {
-        "dependencies": {
-          "OnePiece.Entity": "1.0.0"
-        },
-        "runtime": {
-          "OnePiece.Business.dll": {}
-        }
-      },
       "OnePiece.Entity/1.0.0": {
         "runtime": {
           "OnePiece.Entity.dll": {}
@@ -22,11 +14,6 @@
     }
   },
   "libraries": {
-    "OnePiece.Business/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "OnePiece.Entity/1.0.0": {
       "type": "project",
       "serviceable": false,
