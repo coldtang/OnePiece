@@ -1,0 +1,8 @@
+D:\project\OnePiece\OnePiece.Business\bin\Debug\netcoreapp3.0\OnePiece.Business.deps.json
+D:\project\OnePiece\OnePiece.Business\bin\Debug\netcoreapp3.0\OnePiece.Business.dll
+D:\project\OnePiece\OnePiece.Business\bin\Debug\netcoreapp3.0\OnePiece.Business.pdb
+D:\project\OnePiece\OnePiece.Business\obj\Debug\netcoreapp3.0\OnePiece.Business.AssemblyInfoInputs.cache
+D:\project\OnePiece\OnePiece.Business\obj\Debug\netcoreapp3.0\OnePiece.Business.AssemblyInfo.cs
+D:\project\OnePiece\OnePiece.Business\obj\Debug\netcoreapp3.0\OnePiece.Business.dll
+D:\project\OnePiece\OnePiece.Business\obj\Debug\netcoreapp3.0\OnePiece.Business.pdb
+D:\project\OnePiece\OnePiece.Business\obj\Debug\netcoreapp3.0\OnePiece.Business.csprojAssemblyReference.cache
