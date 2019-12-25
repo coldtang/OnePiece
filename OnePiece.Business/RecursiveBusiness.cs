@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OnePiece.Business.Common;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -9,6 +10,13 @@ namespace OnePiece.Business
     /// </summary>
     public class RecursiveBusiness
     {
-
+        /// <summary>
+        /// 设置循环队列
+        /// </summary>
+        /// <returns></returns>
+        public string SetCircularQueue()
+        {
+            return "aaa";
+        }
     }
 }
