@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\project\\OnePiece\\OnePiece\\OnePiece.csproj": {}
+    "D:\\tcsoft\\OnePiece\\OnePiece\\OnePiece.csproj": {}
   },
   "projects": {
-    "D:\\project\\OnePiece\\OnePiece.Business\\OnePiece.Business.csproj": {
+    "D:\\tcsoft\\OnePiece\\OnePiece.Business\\OnePiece.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\project\\OnePiece\\OnePiece.Business\\OnePiece.Business.csproj",
+        "projectUniqueName": "D:\\tcsoft\\OnePiece\\OnePiece.Business\\OnePiece.Business.csproj",
         "projectName": "OnePiece.Business",
-        "projectPath": "D:\\project\\OnePiece\\OnePiece.Business\\OnePiece.Business.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\project\\OnePiece\\OnePiece.Business\\obj\\",
+        "projectPath": "D:\\tcsoft\\OnePiece\\OnePiece.Business\\OnePiece.Business.csproj",
+        "packagesPath": "C:\\Users\\tang\\.nuget\\packages\\",
+        "outputPath": "D:\\tcsoft\\OnePiece\\OnePiece.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "D:\\project\\OnePiece\\OnePiece.Entity\\OnePiece.Entity.csproj": {
-                "projectPath": "D:\\project\\OnePiece\\OnePiece.Entity\\OnePiece.Entity.csproj"
+              "D:\\tcsoft\\OnePiece\\OnePiece.Entity\\OnePiece.Entity.csproj": {
+                "projectPath": "D:\\tcsoft\\OnePiece\\OnePiece.Entity\\OnePiece.Entity.csproj"
               }
             }
           }
@@ -61,24 +61,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\project\\OnePiece\\OnePiece.Entity\\OnePiece.Entity.csproj": {
+    "D:\\tcsoft\\OnePiece\\OnePiece.Entity\\OnePiece.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\project\\OnePiece\\OnePiece.Entity\\OnePiece.Entity.csproj",
+        "projectUniqueName": "D:\\tcsoft\\OnePiece\\OnePiece.Entity\\OnePiece.Entity.csproj",
         "projectName": "OnePiece.Entity",
-        "projectPath": "D:\\project\\OnePiece\\OnePiece.Entity\\OnePiece.Entity.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\project\\OnePiece\\OnePiece.Entity\\obj\\",
+        "projectPath": "D:\\tcsoft\\OnePiece\\OnePiece.Entity\\OnePiece.Entity.csproj",
+        "packagesPath": "C:\\Users\\tang\\.nuget\\packages\\",
+        "outputPath": "D:\\tcsoft\\OnePiece\\OnePiece.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -118,24 +118,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\project\\OnePiece\\OnePiece\\OnePiece.csproj": {
+    "D:\\tcsoft\\OnePiece\\OnePiece\\OnePiece.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\project\\OnePiece\\OnePiece\\OnePiece.csproj",
+        "projectUniqueName": "D:\\tcsoft\\OnePiece\\OnePiece\\OnePiece.csproj",
         "projectName": "OnePiece",
-        "projectPath": "D:\\project\\OnePiece\\OnePiece\\OnePiece.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\project\\OnePiece\\OnePiece\\obj\\",
+        "projectPath": "D:\\tcsoft\\OnePiece\\OnePiece\\OnePiece.csproj",
+        "packagesPath": "C:\\Users\\tang\\.nuget\\packages\\",
+        "outputPath": "D:\\tcsoft\\OnePiece\\OnePiece\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -150,11 +150,11 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "D:\\project\\OnePiece\\OnePiece.Business\\OnePiece.Business.csproj": {
-                "projectPath": "D:\\project\\OnePiece\\OnePiece.Business\\OnePiece.Business.csproj"
+              "D:\\tcsoft\\OnePiece\\OnePiece.Business\\OnePiece.Business.csproj": {
+                "projectPath": "D:\\tcsoft\\OnePiece\\OnePiece.Business\\OnePiece.Business.csproj"
               },
-              "D:\\project\\OnePiece\\OnePiece.Entity\\OnePiece.Entity.csproj": {
-                "projectPath": "D:\\project\\OnePiece\\OnePiece.Entity\\OnePiece.Entity.csproj"
+              "D:\\tcsoft\\OnePiece\\OnePiece.Entity\\OnePiece.Entity.csproj": {
+                "projectPath": "D:\\tcsoft\\OnePiece\\OnePiece.Entity\\OnePiece.Entity.csproj"
               }
             }
           }
@@ -191,7 +191,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
