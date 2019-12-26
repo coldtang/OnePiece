@@ -49,3 +49,11 @@ OnePiece/obj/OnePiece.csproj.nuget.cache
 OnePiece/obj/OnePiece.csproj.nuget.dgspec.json
 OnePiece/obj/OnePiece.csproj.nuget.g.props
 OnePiece/obj/project.assets.json
+.vs/OnePiece/v16/.suo
+OnePiece.Business/obj/Debug/netcoreapp3.0/OnePiece.Business.csprojAssemblyReference.cache
+OnePiece.Entity/obj/Debug/netcoreapp3.0/OnePiece.Entity.csprojAssemblyReference.cache
+OnePiece/bin/Debug/netcoreapp3.0/OnePiece.dll
+OnePiece/bin/Debug/netcoreapp3.0/OnePiece.pdb
+OnePiece/obj/Debug/netcoreapp3.0/OnePiece.csprojAssemblyReference.cache
+OnePiece/obj/Debug/netcoreapp3.0/OnePiece.dll
+OnePiece/obj/Debug/netcoreapp3.0/OnePiece.pdb
