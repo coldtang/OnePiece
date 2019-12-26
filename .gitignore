@@ -57,3 +57,6 @@ OnePiece/bin/Debug/netcoreapp3.0/OnePiece.pdb
 OnePiece/obj/Debug/netcoreapp3.0/OnePiece.csprojAssemblyReference.cache
 OnePiece/obj/Debug/netcoreapp3.0/OnePiece.dll
 OnePiece/obj/Debug/netcoreapp3.0/OnePiece.pdb
+OnePiece.Entity/obj/Debug/netcoreapp3.0/
+.vs/OnePiece/
+OnePiece/bin/Debug/netcoreapp3.0/
