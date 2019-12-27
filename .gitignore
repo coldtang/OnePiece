@@ -54,3 +54,5 @@ getJson.py
 *.dll
 *.ide-shm
 *.ide-wal
+*.suo
+*.cache
