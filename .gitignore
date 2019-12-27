@@ -57,3 +57,5 @@ getJson.py
 *.command
 *.DS_Store
 .DS_Store
+.vs/
+*.cache
