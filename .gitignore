@@ -339,3 +339,7 @@ ASALocalRun/
  
 # BeatPulse healthcheck temp database 
 healthchecksdb
+*.suo
+*.cache
+OnePiece.Business/obj/
+OnePiece/obj/Debug/
