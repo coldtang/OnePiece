@@ -1,9 +1,0 @@
-D:\project\OnePiece\OnePiece.Business\bin\Debug\netcoreapp2.1\OnePiece.Business.deps.json
-D:\project\OnePiece\OnePiece.Business\bin\Debug\netcoreapp2.1\OnePiece.Business.dll
-D:\project\OnePiece\OnePiece.Business\bin\Debug\netcoreapp2.1\OnePiece.Business.pdb
-D:\project\OnePiece\OnePiece.Business\obj\Debug\netcoreapp2.1\OnePiece.Business.csprojAssemblyReference.cache
-D:\project\OnePiece\OnePiece.Business\obj\Debug\netcoreapp2.1\OnePiece.Business.csproj.CoreCompileInputs.cache
-D:\project\OnePiece\OnePiece.Business\obj\Debug\netcoreapp2.1\OnePiece.Business.AssemblyInfoInputs.cache
-D:\project\OnePiece\OnePiece.Business\obj\Debug\netcoreapp2.1\OnePiece.Business.AssemblyInfo.cs
-D:\project\OnePiece\OnePiece.Business\obj\Debug\netcoreapp2.1\OnePiece.Business.dll
-D:\project\OnePiece\OnePiece.Business\obj\Debug\netcoreapp2.1\OnePiece.Business.pdb
