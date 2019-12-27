@@ -27,23 +27,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tang\\.nuget\\packages\\": {},
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\tcsoft\\OnePiece\\OnePiece.Business\\OnePiece.Business.csproj",
+      "projectUniqueName": "D:\\project\\OnePiece\\OnePiece.Business\\OnePiece.Business.csproj",
       "projectName": "OnePiece.Business",
-      "projectPath": "D:\\tcsoft\\OnePiece\\OnePiece.Business\\OnePiece.Business.csproj",
-      "packagesPath": "C:\\Users\\tang\\.nuget\\packages\\",
-      "outputPath": "D:\\tcsoft\\OnePiece\\OnePiece.Business\\obj\\",
+      "projectPath": "D:\\project\\OnePiece\\OnePiece.Business\\OnePiece.Business.csproj",
+      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+      "outputPath": "D:\\project\\OnePiece\\OnePiece.Business\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\tang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -58,8 +58,8 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "D:\\tcsoft\\OnePiece\\OnePiece.Entity\\OnePiece.Entity.csproj": {
-              "projectPath": "D:\\tcsoft\\OnePiece\\OnePiece.Entity\\OnePiece.Entity.csproj"
+            "D:\\project\\OnePiece\\OnePiece.Entity\\OnePiece.Entity.csproj": {
+              "projectPath": "D:\\project\\OnePiece\\OnePiece.Entity\\OnePiece.Entity.csproj"
             }
           }
         }
@@ -87,7 +87,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
