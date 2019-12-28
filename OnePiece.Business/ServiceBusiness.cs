@@ -1,9 +1,4 @@
-﻿using OnePiece.Entity.Response;
-using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace OnePiece.Business
+﻿namespace OnePiece.Business
 {
     /// <summary>
     /// 接口实现
@@ -28,6 +23,16 @@ namespace OnePiece.Business
             var j = circularQueue.Rear();  // 返回 4
 
             return "hello world!";
+        }
+
+        /// <summary>
+        /// 岛屿数量
+        /// </summary>
+        /// <param name="grid"></param>
+        /// <returns></returns>
+        public int BFSLandCount(char[][] grid)
+        {
+            return new BFSQueue().BFSLandCount(grid);
         }
     }
 }
