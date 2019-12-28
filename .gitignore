@@ -62,3 +62,8 @@ getJson.py
 *.ide
 *.ide-shm
 *.ide-wal
+OnePiece.Business/bin/
+OnePiece.Business/obj/
+OnePiece.Entity/bin/
+OnePiece/bin/
+OnePiece/obj/
