@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using OnePiece.Business;
+using OnePiece.Entity.Request;
 using OnePiece.Entity.Response;
 using System.Collections;
 using static OnePiece.Business.Common.ResponseCommon;
@@ -35,6 +36,17 @@ namespace OnePiece.Controllers
                        new char[] { '1', '1', '1' }
             };
             return InitResponse(new ServiceBusiness().BFSLandCount, grid);
+        }
+
+        /// <summary>
+        /// 二维数组中的查找
+        /// </summary>
+        /// <param name="request"></param>
+        /// <returns></returns>
+        [HttpGet("FindTheNumber")]
+        public Response<bool> FindTheNumber([FromBody]FindTheNumberRequest request)
+        {
+            return InitResponse(new ServiceBusiness().FindTheNumber, request);
         }
     }
 }

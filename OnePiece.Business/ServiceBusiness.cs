@@ -1,4 +1,7 @@
-﻿namespace OnePiece.Business
+﻿using OnePiece.Business.Array;
+using OnePiece.Entity.Request;
+
+namespace OnePiece.Business
 {
     /// <summary>
     /// 接口实现
@@ -33,6 +36,19 @@
         public int BFSLandCount(char[][] grid)
         {
             return new BFSQueue().BFSLandCount(grid);
+        }
+
+        /// <summary>
+        /// 二维数组中的查找
+        /// </summary>
+        /// <param name="array"></param>
+        /// <param name="rows"></param>
+        /// <param name="colums"></param>
+        /// <param name="num"></param>
+        /// <returns></returns>
+        public bool FindTheNumber(FindTheNumberRequest request)
+        {
+            return new ArrayOfferTest().FindTheNumber(request);
         }
     }
 }
