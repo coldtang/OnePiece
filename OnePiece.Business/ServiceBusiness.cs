@@ -1,5 +1,6 @@
 ﻿using OnePiece.Business.Array;
 using OnePiece.Entity.Request;
+using System.Threading.Tasks;
 
 namespace OnePiece.Business
 {
@@ -12,7 +13,7 @@ namespace OnePiece.Business
         /// 循环队列
         /// </summary>
         /// <returns></returns>
-        public string MyCircularQueue(int length)
+        public async Task<string> MyCircularQueue(int length)
         {
             MyCircularQueue circularQueue = new MyCircularQueue(length); // 设置长度为 3
             var a = circularQueue.EnQueue(1);  // 返回 true
@@ -33,7 +34,7 @@ namespace OnePiece.Business
         /// </summary>
         /// <param name="grid"></param>
         /// <returns></returns>
-        public int BFSLandCount(char[][] grid)
+        public async Task<int> BFSLandCount(char[][] grid)
         {
             return new BFSQueue().BFSLandCount(grid);
         }
@@ -46,7 +47,7 @@ namespace OnePiece.Business
         /// <param name="colums"></param>
         /// <param name="num"></param>
         /// <returns></returns>
-        public bool FindTheNumber(FindTheNumberRequest request)
+        public async Task<bool> FindTheNumber(FindTheNumberRequest request)
         {
             return new ArrayOfferTest().FindTheNumber(request);
         }

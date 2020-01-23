@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace OnePiece.Business.Common
 {
@@ -15,7 +16,7 @@ namespace OnePiece.Business.Common
         /// <typeparam name="I">返回参数类型</typeparam>
         /// <param name="func"></param>
         /// <returns></returns>
-        public static Response<I> InitResponse<T, I>(Func<T, I> func, T request)
+        public static async Task<Response<I>> AsyncInitResponse<T, I>(Func<T, Task<I>> func, T request)
         {
             Exception e = new Exception();
             Response<I> result =new Response<I>();
@@ -25,10 +26,8 @@ namespace OnePiece.Business.Common
                 sw.Start();
                 var response = func(request);
                 sw.Stop();
-                var aa = Convert.ToString(sw.ElapsedMilliseconds);
-                var aaa = result.ServiceTime;
                 result.ServiceTime = Convert.ToString(sw.ElapsedMilliseconds);
-                result.Body = response;
+                result.Body = await response;
             }
             catch (Exception ex)
             {

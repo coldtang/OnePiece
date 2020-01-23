@@ -3,6 +3,7 @@ using OnePiece.Business;
 using OnePiece.Entity.Request;
 using OnePiece.Entity.Response;
 using System.Collections;
+using System.Threading.Tasks;
 using static OnePiece.Business.Common.ResponseCommon;
 
 namespace OnePiece.Controllers
@@ -17,9 +18,9 @@ namespace OnePiece.Controllers
         /// <param name="length"></param>
         /// <returns></returns>
         [HttpGet("MyCircularQueue")]
-        public Response<string> MyCircularQueue(int length = 3)
+        public async Task<Response<string>> MyCircularQueue(int length = 3)
         {
-            return InitResponse(new ServiceBusiness().MyCircularQueue, length);
+            return await AsyncInitResponse(new ServiceBusiness().MyCircularQueue, length);
         }
 
         /// <summary>
@@ -28,14 +29,14 @@ namespace OnePiece.Controllers
         /// <param name="length"></param>
         /// <returns></returns>
         [HttpGet("BFSLandCount")]
-        public Response<int> BFSLandCount(char[][] grid)
+        public async Task<Response<int>> BFSLandCount(char[][] grid)
         {
             grid = new char[3][] {
                        new char[] { '1', '1', '1' },
                        new char[] { '0', '1', '0' },
                        new char[] { '1', '1', '1' }
             };
-            return InitResponse(new ServiceBusiness().BFSLandCount, grid);
+            return await AsyncInitResponse(new ServiceBusiness().BFSLandCount, grid);
         }
 
         /// <summary>
@@ -44,9 +45,9 @@ namespace OnePiece.Controllers
         /// <param name="request"></param>
         /// <returns></returns>
         [HttpGet("FindTheNumber")]
-        public Response<bool> FindTheNumber([FromBody]FindTheNumberRequest request)
+        public async Task<Response<bool>> FindTheNumber([FromBody]FindTheNumberRequest request)
         {
-            return InitResponse(new ServiceBusiness().FindTheNumber, request);
+            return await AsyncInitResponse(new ServiceBusiness().FindTheNumber, request);
         }
     }
 }
