@@ -15,7 +15,7 @@ namespace OnePiece.Business.Common
         /// </summary>
         /// <param name="str"></param>
         /// <returns></returns>
-        public static bool IsNullOrEmpry(this string str)
+        public static bool IsNullOrEmpty(this string str)
         {
             return string.IsNullOrEmpty(str);
         }
@@ -26,7 +26,7 @@ namespace OnePiece.Business.Common
         /// <typeparam name="T"></typeparam>
         /// <param name="enumerable"></param>
         /// <returns></returns>
-        public static bool IsNullOrEmpry<T>(this IEnumerable<T> enumerable)
+        public static bool IsNullOrEmpty<T>(this IEnumerable<T> enumerable)
         {
             if (enumerable==null)
             {
